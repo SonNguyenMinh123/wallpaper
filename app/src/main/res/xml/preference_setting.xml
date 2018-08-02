@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+
+        <Preference
+            android:key="setWallpaper"
+            android:summary="Tap to preview"
+            android:title="Set live wallpaper" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Setting">
+
+        <Preference
+            android:key="tem"
+            android:summary="°C"
+            android:title="Temperature Type" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show"
+            android:summary="show or hide text"
+            android:title="Weather Infomation" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="volume"
+            android:summary="when touch a bird"
+            android:title="Volume Bird" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Information">
+        <Preference
+            android:summary="Version 1.0"
+            android:title="About" />
+        <Preference
+            android:key="Rate"
+            android:summary="Rate app and more"
+            android:title="Rate" />
+    </PreferenceCategory>
+</PreferenceScreen>

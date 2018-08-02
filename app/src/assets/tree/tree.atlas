@@ -1,0 +1,54 @@
+
+tree.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 26
+  rotate: false
+  xy: 2, 35
+  size: 267, 204
+  orig: 267, 204
+  offset: 0, 0
+  index: -1
+Layer 31
+  rotate: false
+  xy: 273, 327
+  size: 280, 183
+  orig: 280, 183
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: false
+  xy: 555, 327
+  size: 272, 183
+  orig: 272, 183
+  offset: 0, 0
+  index: -1
+Layer 34
+  rotate: false
+  xy: 271, 2
+  size: 249, 178
+  orig: 249, 178
+  offset: 0, 0
+  index: -1
+Layer 36
+  rotate: false
+  xy: 2, 241
+  size: 269, 269
+  orig: 269, 269
+  offset: 0, 0
+  index: -1
+Layer 37
+  rotate: true
+  xy: 273, 182
+  size: 143, 286
+  orig: 143, 286
+  offset: 0, 0
+  index: -1
+Layer 39
+  rotate: false
+  xy: 561, 170
+  size: 196, 155
+  orig: 196, 155
+  offset: 0, 0
+  index: -1
