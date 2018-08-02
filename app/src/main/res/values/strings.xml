@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">DayScreenLiveWallpaper</string>
-    <string name="setwallpaper">Set Wallpaper</string>
-    <string name="setasswallpaper">Set as Wallpaper</string>
-    <string name="forecastio_key">d72e111628625de99d2cafb7166bcefc</string>
+    <string name="app_name">Water Garden Live Wallpaper</string>
+    <string name="about">Khoảng</string>
+    <string name="version">Phiên bản 1.0</string>
+    <string name="information">Thông tin</string>
+    <string name="settings">Cài đặt</string>
+    <string name="rate_app">Xếp hạng ứng dụng và hơn nữa</string>
+    <string name="rate">Ứng dụng</string>
+    <string name="share_with_friend">Chia sẻ với bạn bè</string>
+    <string name="share">Chia sẻ ứng dụng</string>
+    <string name="set_live_wallpaper">Đặt làm ảnh nền</string>
+    <string name="tap_to_preview">Nhấn để xem trước</string>
 </resources>

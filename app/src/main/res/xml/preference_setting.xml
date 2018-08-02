@@ -1,42 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="General">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/settings"/>
 
+    <Preference
+        android:icon="@drawable/ic_picture"
+        android:key="setWallpaper"
+        android:summary="@string/tap_to_preview"
+        android:title="@string/set_live_wallpaper"/>
+
+    <PreferenceCategory android:title="@string/information">
         <Preference
-            android:key="setWallpaper"
-            android:summary="Tap to preview"
-            android:title="Set live wallpaper" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory android:title="Setting">
-
+            android:icon="@drawable/ic_infor"
+            android:summary="@string/version"
+            android:title="@string/about" />
         <Preference
-            android:key="tem"
-            android:summary="°C"
-            android:title="Temperature Type" />
-
-        <CheckBoxPreference
-            android:defaultValue="true"
-            android:key="show"
-            android:summary="show or hide text"
-            android:title="Weather Infomation" />
-
-        <CheckBoxPreference
-            android:defaultValue="true"
-            android:key="volume"
-            android:summary="when touch a bird"
-            android:title="Volume Bird" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory android:title="Information">
-        <Preference
-            android:summary="Version 1.0"
-            android:title="About" />
-        <Preference
+            android:icon="@drawable/ic_rate"
             android:key="Rate"
-            android:summary="Rate app and more"
-            android:title="Rate" />
+            android:summary="@string/rate_app"
+            android:title="@string/rate" />
+        <Preference
+            android:icon="@drawable/ic_share"
+            android:key="share"
+            android:summary="@string/share_with_friend"
+            android:title="@string/share" />
     </PreferenceCategory>
 </PreferenceScreen>

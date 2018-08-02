@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ikame.dayscreenlivewallpaper">
+    package="waterlivewallpaper.com.minhson.watergardenlivewallpaper">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-feature
@@ -28,16 +28,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".ui.activities.MainActivity">
+        <activity
+            android:name=".ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".ui.service.MyWallpaperService"
-            android:permission="android.permission.BIND_WALLPAPER">
+        <service
+            android:permission="android.permission.BIND_WALLPAPER"
+            android:name=".ui.service.MyServiceWallpaper">
             <intent-filter>
                 <action android:name="android.service.wallpaper.WallpaperService">
                 </action>
@@ -47,11 +48,10 @@
                 android:resource="@xml/mywallpaper">
             </meta-data>
         </service>
-        <receiver android:name=".ui.receiver.MyReceiver">
-        </receiver>
         <activity
             android:theme="@style/my_style"
             android:exported="true"
-            android:name=".ui.activities.SettingsActivity"/>
+            android:name=".ui.activity.SettingsActivity"/>
+        <receiver android:name=".ui.receiver.MyReceiver"/>
     </application>
 </manifest>
